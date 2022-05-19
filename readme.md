@@ -64,7 +64,7 @@ Now if you need to upload images from the text editor, we need to install [UniSh
 ```php
 NovaTinyMCE::make('body')->options([
                 'plugins' => [
-                    'lists preview hr anchor pagebreak image wordcount fullscreen directionality paste textpattern'
+                    'lists', 'preview', 'hr', 'anchor', 'pagebreak', 'image', 'wordcount', 'fullscreen', 'directionality', 'paste', 'textpattern'
                 ],
                 'toolbar' => 'undo redo | styleselect | bold italic forecolor backcolor | alignleft aligncenter alignright alignjustify | image | bullist numlist outdent indent | link',
                 'use_lfm' => true
